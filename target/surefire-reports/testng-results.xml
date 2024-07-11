@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="43" passed="43" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-11T13:07:05 IST" name="Suite" finished-at="2024-07-11T13:07:26 IST" duration-ms="21891">
+    <groups>
+    </groups>
+    <test started-at="2024-07-11T13:07:05 IST" name="Test" finished-at="2024-07-11T13:07:26 IST" duration-ms="21891">
+      <class name="APITestCase.ManageUser">
+        <test-method signature="Login()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:10 IST" name="Login" finished-at="2024-07-11T13:07:11 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AddUser()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:11 IST" name="AddUser" finished-at="2024-07-11T13:07:11 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddUser -->
+        <test-method signature="ExportUser()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:11 IST" name="ExportUser" finished-at="2024-07-11T13:07:12 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportUser -->
+        <test-method signature="GetBranches()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:12 IST" name="GetBranches" finished-at="2024-07-11T13:07:12 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBranches -->
+        <test-method signature="GetUser()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:12 IST" name="GetUser" finished-at="2024-07-11T13:07:13 IST" depends-on-methods="APITestCase.ManageUser.AddUser" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUser -->
+        <test-method signature="GetVendorCompany()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:13 IST" name="GetVendorCompany" finished-at="2024-07-11T13:07:13 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetVendorCompany -->
+        <test-method signature="ResendPassword()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:13 IST" name="ResendPassword" finished-at="2024-07-11T13:07:13 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResendPassword -->
+        <test-method signature="ResetPassword()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:13 IST" name="ResetPassword" finished-at="2024-07-11T13:07:14 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetPassword -->
+        <test-method signature="RoleList()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:14 IST" name="RoleList" finished-at="2024-07-11T13:07:14 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RoleList -->
+        <test-method signature="UpdateUser()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:14 IST" name="UpdateUser" finished-at="2024-07-11T13:07:14 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+        <test-method signature="UpdateUserStatus()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:14 IST" name="UpdateUserStatus" finished-at="2024-07-11T13:07:15 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUserStatus -->
+        <test-method signature="UploadUserProfileImage()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:15 IST" name="UploadUserProfileImage" finished-at="2024-07-11T13:07:15 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadUserProfileImage -->
+        <test-method signature="UsersCount()[pri:0, instance:APITestCase.ManageUser@787f32b7]" started-at="2024-07-11T13:07:15 IST" name="UsersCount" finished-at="2024-07-11T13:07:16 IST" depends-on-methods="APITestCase.ManageUser.Login" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsersCount -->
+      </class> <!-- APITestCase.ManageUser -->
+      <class name="APITestCase.Login">
+        <test-method signature="Login()[pri:0, instance:APITestCase.Login@7cc0cdad]" started-at="2024-07-11T13:07:05 IST" name="Login" finished-at="2024-07-11T13:07:09 IST" duration-ms="3944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Logout()[pri:0, instance:APITestCase.Login@7cc0cdad]" started-at="2024-07-11T13:07:09 IST" name="Logout" finished-at="2024-07-11T13:07:09 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="LoginWithOtp()[pri:1, instance:APITestCase.Login@7cc0cdad]" started-at="2024-07-11T13:07:09 IST" name="LoginWithOtp" finished-at="2024-07-11T13:07:09 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithOtp -->
+        <test-method signature="OtpVerification()[pri:2, instance:APITestCase.Login@7cc0cdad]" started-at="2024-07-11T13:07:09 IST" name="OtpVerification" finished-at="2024-07-11T13:07:10 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OtpVerification -->
+        <test-method signature="ResetPassword()[pri:3, instance:APITestCase.Login@7cc0cdad]" started-at="2024-07-11T13:07:10 IST" name="ResetPassword" finished-at="2024-07-11T13:07:10 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetPassword -->
+        <test-method signature="CheckResetPassword()[pri:0, instance:APITestCase.Login@7cc0cdad]" started-at="2024-07-11T13:07:10 IST" name="CheckResetPassword" finished-at="2024-07-11T13:07:10 IST" depends-on-methods="APITestCase.Login.ResetPassword" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResetPassword -->
+        <test-method signature="UserProfile()[pri:4, instance:APITestCase.Login@7cc0cdad]" started-at="2024-07-11T13:07:10 IST" name="UserProfile" finished-at="2024-07-11T13:07:10 IST" depends-on-methods="APITestCase.Login.Login" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserProfile -->
+      </class> <!-- APITestCase.Login -->
+      <class name="APITestCase.ManageLead">
+        <test-method signature="Login()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:16 IST" name="Login" finished-at="2024-07-11T13:07:16 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AddLead()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:16 IST" name="AddLead" finished-at="2024-07-11T13:07:16 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLead -->
+        <test-method signature="AddLeadActivity()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:16 IST" name="AddLeadActivity" finished-at="2024-07-11T13:07:16 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLeadActivity -->
+        <test-method signature="AddTaskForLead()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:16 IST" name="AddTaskForLead" finished-at="2024-07-11T13:07:17 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTaskForLead -->
+        <test-method signature="CheckLeadNumbers()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:17 IST" name="CheckLeadNumbers" finished-at="2024-07-11T13:07:17 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLeadNumbers -->
+        <test-method signature="DeleteAttachment()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:17 IST" name="DeleteAttachment" finished-at="2024-07-11T13:07:17 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAttachment -->
+        <test-method signature="ExportLeads()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:17 IST" name="ExportLeads" finished-at="2024-07-11T13:07:19 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="1623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportLeads -->
+        <test-method signature="GetCity()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:19 IST" name="GetCity" finished-at="2024-07-11T13:07:19 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCity -->
+        <test-method signature="GetLeadActivity()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:19 IST" name="GetLeadActivity" finished-at="2024-07-11T13:07:20 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadActivity -->
+        <test-method signature="GetLeadDetails()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:20 IST" name="GetLeadDetails" finished-at="2024-07-11T13:07:20 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadDetails -->
+        <test-method signature="GetLeadHistory()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:20 IST" name="GetLeadHistory" finished-at="2024-07-11T13:07:20 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadHistory -->
+        <test-method signature="GetLeadStage()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:20 IST" name="GetLeadStage" finished-at="2024-07-11T13:07:21 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadStage -->
+        <test-method signature="GetLeadTask()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:21 IST" name="GetLeadTask" finished-at="2024-07-11T13:07:21 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeadTask -->
+        <test-method signature="GetLeads()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:21 IST" name="GetLeads" finished-at="2024-07-11T13:07:23 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLeads -->
+        <test-method signature="GetRequirement()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:23 IST" name="GetRequirement" finished-at="2024-07-11T13:07:23 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRequirement -->
+        <test-method signature="GetStates()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:23 IST" name="GetStates" finished-at="2024-07-11T13:07:23 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStates -->
+        <test-method signature="GetTaskByLeadId()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:23 IST" name="GetTaskByLeadId" finished-at="2024-07-11T13:07:23 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTaskByLeadId -->
+        <test-method signature="MarkLeadAsStar()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:23 IST" name="MarkLeadAsStar" finished-at="2024-07-11T13:07:23 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkLeadAsStar -->
+        <test-method signature="MarkTaskAsCompleted()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:23 IST" name="MarkTaskAsCompleted" finished-at="2024-07-11T13:07:24 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkTaskAsCompleted -->
+        <test-method signature="RescheduleTask()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:24 IST" name="RescheduleTask" finished-at="2024-07-11T13:07:25 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RescheduleTask -->
+        <test-method signature="UpdateLead()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:25 IST" name="UpdateLead" finished-at="2024-07-11T13:07:25 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateLead -->
+        <test-method signature="UpdateLeadStage()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:25 IST" name="UpdateLeadStage" finished-at="2024-07-11T13:07:26 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateLeadStage -->
+        <test-method signature="UploadLeadAttachment()[pri:0, instance:APITestCase.ManageLead@2d22d3b1]" started-at="2024-07-11T13:07:26 IST" name="UploadLeadAttachment" finished-at="2024-07-11T13:07:26 IST" depends-on-methods="APITestCase.ManageLead.Login" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadLeadAttachment -->
+      </class> <!-- APITestCase.ManageLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,294 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>43/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 11 12:59:04 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20649 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='APITestCase.ManageLead.MarkLeadAsStar()'><b>MarkLeadAsStar</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.AddUser()'><b>AddUser</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.GetUser()'><b>GetUser</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetRequirement()'><b>GetRequirement</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetTaskByLeadId()'><b>GetTaskByLeadId</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.Login.Logout()'><b>Logout</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@131ef10</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeads()'><b>GetLeads</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>1</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.Login.OtpVerification()'><b>OtpVerification</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@131ef10</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeadActivity()'><b>GetLeadActivity</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.Login.CheckResetPassword()'><b>CheckResetPassword</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@131ef10</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.ResetPassword()'><b>ResetPassword</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeadHistory()'><b>GetLeadHistory</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.MarkTaskAsCompleted()'><b>MarkTaskAsCompleted</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.UploadLeadAttachment()'><b>UploadLeadAttachment</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.UpdateUserStatus()'><b>UpdateUserStatus</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.CheckLeadNumbers()'><b>CheckLeadNumbers</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.UpdateLead()'><b>UpdateLead</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.Login.LoginWithOtp()'><b>LoginWithOtp</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@131ef10</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.Login()'><b>Login</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeadStage()'><b>GetLeadStage</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetCity()'><b>GetCity</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.ExportLeads()'><b>ExportLeads</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>1</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetStates()'><b>GetStates</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.GetVendorCompany()'><b>GetVendorCompany</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.AddLead()'><b>AddLead</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeadTask()'><b>GetLeadTask</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.DeleteAttachment()'><b>DeleteAttachment</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.UploadUserProfileImage()'><b>UploadUserProfileImage</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.UsersCount()'><b>UsersCount</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.ResendPassword()'><b>ResendPassword</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.Login.UserProfile()'><b>UserProfile</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@131ef10</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.UpdateUser()'><b>UpdateUser</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.RescheduleTask()'><b>RescheduleTask</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.RoleList()'><b>RoleList</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.Login.Login()'><b>Login</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>5</td>
+<td>APITestCase.Login@131ef10</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.UpdateLeadStage()'><b>UpdateLeadStage</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.Login()'><b>Login</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.AddTaskForLead()'><b>AddTaskForLead</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.GetBranches()'><b>GetBranches</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.GetLeadDetails()'><b>GetLeadDetails</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+<tr>
+<td title='APITestCase.Login.ResetPassword()'><b>ResetPassword</b><br>Test class: APITestCase.Login</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.Login@131ef10</td></tr>
+<tr>
+<td title='APITestCase.ManageUser.ExportUser()'><b>ExportUser</b><br>Test class: APITestCase.ManageUser</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageUser@62ce72ff</td></tr>
+<tr>
+<td title='APITestCase.ManageLead.AddLeadActivity()'><b>AddLeadActivity</b><br>Test class: APITestCase.ManageLead</td>
+<td></td>
+<td>0</td>
+<td>APITestCase.ManageLead@418f0534</td></tr>
+</table><p>
+</body>
+</html>
